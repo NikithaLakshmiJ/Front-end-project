@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ticket booking</title>
+        <link rel="stylesheet" href="css/booking.css">
+    </head>
+    <body>
+        <h1>VARISU</h1>
+        <div class="content">
+            
+            <p class="movie-dis">Vijay Rajendran is a happy to-go lucky man. Things change when his father becomes terminally ill, and he is left to manage his business empire.</p>
+            <p>Director - <span>Vamshi Paidipally</span> </p>
+            <p>Stars - <span>Joseph Vijay &middot Rashmika Mandanna &middot Shaam</span> </p>
+            <p>Music by - <span>Aniruth</span></p>
+            <p>IMDB - <span>7.1/10</span></p>
+        </div>
+        <div class="booking">
+            <form class="ticket-form">
+                <div  class="form-control">
+                    <label > No.of seats : </label>
+                    <input type="number" class="seat">
+                </div>
+                <div class="form-control">
+                    <div><label  class="date"> Date : </label></div>
+                    <div>
+                        <button class="bu">30.03.2033</button>
+                        <button class="bu">31.03.2023</button>
+                        <button class="bu">01.04.2023</button>
+                    </div>
+                    
+                </div>
+                <div class="form-control">
+                    <div>
+                        <label class="time"> Shows : </label>
+                    </div>
+                    <div>
+                        <button class="bu">9:00 AM</button>
+                        <button class="bu">12:30 PM</button>
+                        <button class="bu">4:30 PM</button>
+                        <button class="bu">7:00 PM</button>
+                        <button class="bu">10:30 PM</button>
+                    </div>
+                </div>
+                <div  class="form-control">
+                    <label > Mobile no.: </label>
+                    <input type="text" pattern="[0-9]{10}" placeholder="XXXXXXXXXX"  class="mobile">
+                </div>
+                <div  class="form-control">
+                    <label > E-mail : </label>
+                    <input type="email"  class="email">
+                </div>
+                <div >
+                    <button type="submit" class="sub">Book Ticket</button>
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>
